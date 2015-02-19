@@ -128,7 +128,7 @@ config CPU_FREQ_DEFAULT_GOV_LULZACTIVE
 	select CPU_FREQ_GOV_LULZACTIVE
 	select CPU_FREQ_GOV_PERFORMANCE
 	help
-	    Use the CPUFreq governor 'lulzactive' as default.
+	  Use the CPUFreq governor 'lulzactive' as default.
 	  
 endchoice
 
@@ -226,6 +226,7 @@ config CPU_FREQ_GOV_CONSERVATIVE
 	  For details, take a look at linux/Documentation/cpu-freq.
 
 	  If in doubt, say N.
+	  
 config CPU_FREQ_GOV_LULZACTIVE
 	tristate "'lulzactive' cpufreq governor"
 	depends on CPU_FREQ
